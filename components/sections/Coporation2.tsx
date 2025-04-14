@@ -1,8 +1,8 @@
-import Link from 'next/link'
+import Link from "next/link";
 import Marquee from "react-fast-marquee";
 
 export default function Coporation2() {
-	return (
+  return (
     <>
       <section className="section-coporation">
         <div className="container pt-5">
@@ -335,14 +335,23 @@ export default function Coporation2() {
                         </div>
                       </div>
                       <div className="d-flex flex-column gap-2">
-                        <Link href="#">
-                          <i className="ri-telegram-fill  " />
+                        <a
+                          href="https://t.me/D4vv4"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="d-flex align-items-center gap-2"
+                        >
+                          <i className="ri-telegram-fill" />
                           <span className="text-300">
                             [Telegram]{" "}
                             <span className="text-secondary-2">@D4vv4</span>
                           </span>
-                        </Link>
-                        <Link href="#">
+                        </a>
+
+                        <a
+                          href="tel:+251985392862"
+                          className="d-flex align-items-center gap-2"
+                        >
                           <i className="ri-phone-fill" />
                           <span className="text-300">
                             [phone]{" "}
@@ -350,8 +359,12 @@ export default function Coporation2() {
                               +251985392862
                             </span>
                           </span>
-                        </Link>
-                        <Link href="#">
+                        </a>
+
+                        <a
+                          href="mailto:davegerim@gmail.com"
+                          className="d-flex align-items-center gap-2"
+                        >
                           <i className="ri-mail-fill" />
                           <span className="text-300">
                             [email]{" "}
@@ -359,7 +372,7 @@ export default function Coporation2() {
                               davegerim@gmail.com
                             </span>
                           </span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -410,7 +423,7 @@ export default function Coporation2() {
                   </svg>
                   <span className="text-linear-4 d-flex align-items-center">
                     {" "}
-                    Git Journaling {" "}(Zuret Tour project 2023){" "}
+                    Git Journaling (Zuret Tour project 2023){" "}
                   </span>
                 </div>
                 <div className="h-100 position-relative">

@@ -37,66 +37,54 @@ export default function Skills2() {
                           <Marquee
                             className="carouselTicker carouselTicker-right position-relative z-1"
                             direction="right"
+                            gradient={false} // Removed gradient to potentially reduce visual spacing
                           >
                             <ul className="carouselTicker__list m-0">
-                              <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                              <li className="carouselTicker__item mt-6 me-4">
+                                {" "}
+                                {/* Added right margin to space items */}
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/icon-4.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">NodeJS</span>
                               </li>
-                              <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                              <li className="carouselTicker__item mt-6 me-4">
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/icon-1.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">NextJS</span>
                               </li>
-                              <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                              <li className="carouselTicker__item mt-6 me-4">
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/icon-2.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">Firebase</span>
                               </li>
-                              <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                              <li className="carouselTicker__item mt-6 me-4">
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/icon-3.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">MongoDB</span>
                               </li>
                               <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/icon-6.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">React</span>
                               </li>
                             </ul>
@@ -107,54 +95,45 @@ export default function Skills2() {
                           <Marquee
                             className="carouselTicker carouselTicker-left position-relative z-1"
                             direction="right"
+                            gradient={false} // Removed gradient to potentially reduce visual spacing
                           >
                             <ul className="carouselTicker__list m-0">
-                              <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                              <li className="carouselTicker__item mt-6 me-4">
+                                {" "}
+                                {/* Added right margin to space items */}
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/wordpress-svgrepo-com.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">Wordpress</span>
                               </li>
-                              <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                              <li className="carouselTicker__item mt-6 me-4">
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/Nest.js.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">Nest js</span>
                               </li>
-                              <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                              <li className="carouselTicker__item mt-6 me-4">
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/postgresql-icon.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">Postgresql</span>
                               </li>
-                              <li className="carouselTicker__item mt-6">
-                                <Link
-                                  href="#"
-                                  className="brand-logo icon_80 icon-shape rounded-3"
-                                >
+                              <li className="carouselTicker__item mt-6 me-4">
+                                <div className="brand-logo icon_60 icon-shape rounded-3">
                                   <img
                                     src="assets/imgs/home-page-2/hero-1/icon-5.svg"
                                     alt="brand"
                                   />
-                                </Link>
+                                </div>
                                 <span className="tool-tip">Tailwind</span>
                               </li>
                             </ul>
