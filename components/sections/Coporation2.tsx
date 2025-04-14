@@ -410,51 +410,53 @@ export default function Coporation2() {
                   </svg>
                   <span className="text-linear-4 d-flex align-items-center">
                     {" "}
-                    Git Journaling{" "}
+                    Git Journaling {" "}(Zuret Tour project 2023){" "}
                   </span>
                 </div>
                 <div className="h-100 position-relative">
                   <ul className="ps-3 d-flex flex-column justify-content-around h-100 position-relative">
                     <li className="position-relative z-1">
                       <div className="d-flex align-items-center gap-2">
+                        <p className="text-300 text-nowrap">10 Jul:</p>
+                        <span className="text-dark">
+                          Created project structure with React.js (frontend) and
+                          Nest.js (backend)
+                        </span>
+                      </div>
+                    </li>
+                    <li className="position-relative z-1">
+                      <div className="d-flex align-items-center gap-2">
                         <p className="text-300 text-nowrap">15 Jul:</p>
                         <span className="text-dark">
-                          Muzzilla-streaming-API-services-for-Python
+                          Integrated Chrome DevTools for frontend testing
                         </span>
                       </div>
                     </li>
                     <li className="position-relative z-1">
                       <div className="d-flex align-items-center gap-2">
-                        <p className="text-300 text-nowrap">30 Jun:</p>
+                        <p className="text-300 text-nowrap">05 Aug:</p>
                         <span className="text-dark">
-                          ChatHub-Chat-application-VueJs-Mongodb
+                          Used Swagger to document all endpoints
                         </span>
                       </div>
                     </li>
                     <li className="position-relative z-1">
                       <div className="d-flex align-items-center gap-2">
-                        <p className="text-300 text-nowrap">26 May:</p>
+                        <p className="text-300 text-nowrap">10 Sep:</p>
                         <span className="text-dark">
-                          DineEasy-coffee-tea-reservation-system
+                          Deployed frontend and backend .{} Tested live
+                          endpoints and fixed deployment issues
                         </span>
                       </div>
                     </li>
-                    <li className="position-relative z-1">
-                      <div className="d-flex align-items-center gap-2">
-                        <p className="text-300 text-nowrap">17 Apr:</p>
-                        <span className="text-dark">
-                          FinanceBuddy-Personal-finance-tracker
-                        </span>
-                      </div>
-                    </li>
-                    <li className="position-relative z-1">
+                    {/* <li className="position-relative z-1">
                       <div className="d-flex align-items-center gap-2">
                         <p className="text-300 text-nowrap">05 Mar:</p>
                         <span className="text-dark">
                           TuneStream-Music-streaming-service-API
                         </span>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                   <div className="line-left position-absolute border-start z-0" />
                 </div>

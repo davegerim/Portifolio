@@ -36,16 +36,16 @@ export default function Blog2() {
 								<div className="blog-card__image position-relative">
 									<div className="zoom-img rounded-2 overflow-hidden">
 										<img className="w-100" src="assets/imgs/home-page-2/blog/Screenshot 2025-04-13 142847.png" alt="zelio" />
-										<Link className="position-absolute bottom-0 start-0 m-3 text-white-keep border border-white fw-medium px-3 py-1 fs-7 bg-white rounded-2" href="#">CEO</Link>
+										<Link className="position-absolute bottom-0 start-0 m-3 text-white-keep border border-white fw-medium px-3 py-1 fs-7 bg-white rounded-2" href="#">Testing</Link>
 										<Link href="#" className="blog-card__link position-absolute top-50 start-50 translate-middle icon-md icon-shape rounded-circle">
 											<i className="ri-arrow-right-up-line" />
 										</Link>
 									</div>
 								</div>
 								<div className="blog-card__content position-relative text-center mt-4">
-									<span className="blog-card__date fs-7">March 28, 2023 • 3 min read</span>
-									<h6 className="blog-card__title mt-2">Optimize Your Web Application for Speed</h6>
-									<p className="blog-card__description fs-7">Stay ahead of the curve with these emerging trends in UI/UX design.</p>
+									<span className="blog-card__date fs-7">July 12, 2023 • 3 min read</span>
+									<h6 className="blog-card__title mt-2">Debugging Zuret Tour – Real-Time Testing in Action</h6>
+									<p className="blog-card__description fs-7">During development, I relied heavily on browser dev tools to test and debug the Zuret Tour app. This post dives into how I used network monitoring and console debugging to catch performance bottlenecks and fix frontend bugs effectively.</p>
 									<Link href="#" className="link-overlay position-absolute top-0 start-0 w-100 h-100" />
 								</div>
 							</div>
@@ -56,14 +56,14 @@ export default function Blog2() {
                   <div className="zoom-img rounded-2 overflow-hidden">
                     <img
                       className="w-100"
-                      src="assets/imgs/home-page-2/blog/img-2.png"
+                      src="assets/imgs/home-page-2/blog/Screenshot 2025-04-14 110332.png"
                       alt="zelio"
                     />
                     <Link
                       className="position-absolute bottom-0 start-0 m-3 text-white-keep border border-white fw-medium px-3 py-1 fs-7 bg-white rounded-2"
                       href="#"
                     >
-                      Development
+                      Swagger
                     </Link>
                     <Link
                       href="#"
@@ -75,14 +75,16 @@ export default function Blog2() {
                 </div>
                 <div className="blog-card__content position-relative text-center mt-4">
                   <span className="blog-card__date fs-7">
-                    March 28, 2023 • 3 min read
+                   August 5, 2023 • 3 min read
                   </span>
                   <h6 className="blog-card__title mt-2">
-                    Best Practices for Secure Web Development
+                    Documenting Zuret Tour APIs with Swagger
                   </h6>
                   <p className="blog-card__description fs-7">
-                    Stay ahead of the curve with these emerging trends in UI/UX
-                    design.
+                    lear API documentation was key to Zuret Tour’s backend
+                    success. I used Swagger in NestJS to define, test, and
+                    organize RESTful endpoints—making collaboration smooth and
+                    integration seamless.
                   </p>
                   <Link
                     href="#"
@@ -104,7 +106,7 @@ export default function Blog2() {
                       className="position-absolute bottom-0 start-0 m-3 text-white-keep border border-white fw-medium px-3 py-1 fs-7 bg-white rounded-2"
                       href="#"
                     >
-                      Trending
+                      Deployment
                     </Link>
                     <Link
                       href="#"
@@ -119,11 +121,13 @@ export default function Blog2() {
                     March 28, 2023 • 3 min read
                   </span>
                   <h6 className="blog-card__title mt-2">
-                    10 JavaScript Frameworks for Web Development in 2024
+                    Deploying Zuret Tour – From Localhost to Production
                   </h6>
                   <p className="blog-card__description fs-7">
-                    Stay ahead of the curve with these emerging trends in UI/UX
-                    design.
+                    After development, I managed the deployment process of Zuret
+                    Tour. This blog covers how I moved the project from local
+                    development to production, tackled deployment issues, and
+                    ensured everything ran smoothly in the live environment.
                   </p>
                   <Link
                     href="#"
