@@ -2,10 +2,19 @@
 
 import { useState } from "react";
 
-export default function Experience2() {
-  const [selectedCompany, setSelectedCompany] = useState("Google");
+type CompanyData = {
+  [key: string]: {
+    title: string;
+    bullets: string[];
+    skills: string[];
+    period: string;
+  };
+};
 
-  const companyData = {
+export default function Experience2() {
+  const [selectedCompany, setSelectedCompany] = useState<string>("Google");
+
+  const companyData: CompanyData = {
     Google: {
       title: "WordPress Developer",
       bullets: [
@@ -49,7 +58,7 @@ export default function Experience2() {
     },
   };
 
-  const handleCompanyClick = (company) => {
+  const handleCompanyClick = (company: string) => {
     setSelectedCompany(company);
   };
 
@@ -79,13 +88,12 @@ export default function Experience2() {
                   </span>
                 </div>
                 <h3>
-                 
                   <span className="text-300">
                     From curiosity to clean, scalable{" "}
                   </span>
                   full-stack solutions.
                   <span className="text-300">
-                     <br />
+                    <br />
                   </span>
                 </h3>
                 <div className="row mt-5">
