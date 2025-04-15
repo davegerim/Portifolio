@@ -1,9 +1,8 @@
-
-import Link from 'next/link'
-import Marquee from 'react-fast-marquee'
+import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 export default function Home2() {
-	return (
+  return (
     <>
       <section
         id="about"
@@ -16,7 +15,7 @@ export default function Home2() {
                 <div className="col-lg-5 ps-lg-5 text-lg-start text-center">
                   <div className="position-relative mb-lg-0 mb-5">
                     <img
-                      src="assets/imgs/home-page-2/hero-1/people.png"
+                      src="assets/imgs/home-page-2/hero-1/people1.png"
                       alt="zelio"
                     />
                     <div className="position-absolute end-0 top-100 translate-middle-y icon-decorate">
@@ -33,7 +32,9 @@ export default function Home2() {
                       &lt;span&gt;
                       <div className="text-dark">
                         <div className="typewriter">
-                          <h1 className="fs-6 fw-medium">Hey, I’m Dawit Gerim</h1>
+                          <h1 className="fs-6 fw-medium">
+                            Hey, I’m Dawit Gerim
+                          </h1>
                         </div>
                       </div>
                       &lt;/span&gt;

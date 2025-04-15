@@ -59,7 +59,7 @@ export default function Projects2() {
                             <div className="col-lg-5">
                               <img
                                 className="w-100"
-                                src="assets/imgs/home-page-2/projects/Screenshot 2025-04-12 183434.png"
+                                src="assets/imgs/home-page-2/projects/img-3.png"
                                 alt="zelio"
                               />
                             </div>
@@ -68,15 +68,16 @@ export default function Projects2() {
                                 Zuret Tour and Travel
                               </h4>
                               <p>
-                                Developed an online learning platform with
-                                course management, quizzes, and progress
-                                tracking.
+                                Users can book trips, hotels, and flights
+                                through a seamless interface. The admin
+                                dashboard enables adding, viewing, editing, and
+                                deleting trip, hotel, and flight records.
                               </p>
                               <ul className="mt-4 list-unstyled">
                                 <li className="text-secondary-2 mb-3 border-bottom pb-3">
                                   Project Info
                                 </li>
-                                <li className="text-dark mb-3 border-bottom pb-3">
+                                {/* <li className="text-dark mb-3 border-bottom pb-3">
                                   <div className="d-flex justify-content-between">
                                     <p className="text-dark mb-0 text-end">
                                       Client
@@ -85,14 +86,14 @@ export default function Projects2() {
                                       Conceptual JSC
                                     </p>
                                   </div>
-                                </li>
+                                </li> */}
                                 <li className="text-dark mb-3 border-bottom pb-3">
                                   <div className="d-flex justify-content-between">
                                     <p className="text-dark mb-0 text-end">
                                       Completion Time
                                     </p>
                                     <p className="text-300 mb-0 text-end">
-                                      6 months
+                                      3 months
                                     </p>
                                   </div>
                                 </li>
@@ -110,7 +111,8 @@ export default function Projects2() {
                               </ul>
                               <div className="d-flex flex-wrap align-items-center gap-3 mt-7">
                                 <Link
-                                  href="#"
+                                  href="https://zuret-agency.netlify.app/"
+                                  target="_blank"
                                   className="text-300 border-bottom border-1 px-2 pb-2 link-hover"
                                 >
                                   <svg
@@ -158,25 +160,26 @@ export default function Projects2() {
                             <div className="col-lg-5">
                               <img
                                 className="w-100"
-                                src="assets/imgs/home-page-2/projects/img-1.png"
+                                src="assets/imgs/home-page-2/projects/img-3 (2).png"
                                 alt="zelio"
                               />
                             </div>
                             <div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
                               <h4 className="text-linear-4">
-                                Integrate AI into the <br />
-                                ecommerce system
+                                Unique Light Store
                               </h4>
                               <p>
-                                Developed an online learning platform with
-                                course management, quizzes, and progress
-                                tracking.
+                                Unique Light is a company profile web app that
+                                showcases various lighting products and
+                                services. It features sections for product
+                                types, company information, and a clean,
+                                responsive design.
                               </p>
                               <ul className="mt-4 list-unstyled">
                                 <li className="text-secondary-2 mb-3 border-bottom pb-3">
                                   Project Info
                                 </li>
-                                <li className="text-dark mb-3 border-bottom pb-3">
+                                {/* <li className="text-dark mb-3 border-bottom pb-3">
                                   <div className="d-flex justify-content-between">
                                     <p className="text-dark mb-0 text-end">
                                       Client
@@ -185,14 +188,14 @@ export default function Projects2() {
                                       Conceptual JSC
                                     </p>
                                   </div>
-                                </li>
+                                </li> */}
                                 <li className="text-dark mb-3 border-bottom pb-3">
                                   <div className="d-flex justify-content-between">
                                     <p className="text-dark mb-0 text-end">
                                       Completion Time
                                     </p>
                                     <p className="text-300 mb-0 text-end">
-                                      6 months
+                                      1 months
                                     </p>
                                   </div>
                                 </li>
@@ -202,14 +205,15 @@ export default function Projects2() {
                                       Technologies
                                     </p>
                                     <p className="text-300 mb-0 text-end">
-                                      Node.js, React, MongoDB, Stripe
+                                      React.js, Tailwindcss, Netlify, Botfather
                                     </p>
                                   </div>
                                 </li>
                               </ul>
                               <div className="d-flex flex-wrap align-items-center gap-3 mt-7">
                                 <Link
-                                  href="#"
+                                  href="https://t.me/unique_light_bot/uniquelight"
+                                  target="_blank"
                                   className="text-300 border-bottom border-1 px-2 pb-2 link-hover"
                                 >
                                   <svg
@@ -227,7 +231,8 @@ export default function Projects2() {
                                   Live Demo
                                 </Link>
                                 <Link
-                                  href="#"
+                                  href="https://github.com/davegerim/Unique-Light"
+                                  target="_blank"
                                   className="text-300 border-bottom border-1 px-2 pb-2 link-hover"
                                 >
                                   <svg
