@@ -15,7 +15,7 @@ export default function Home2() {
                 <div className="col-lg-5 ps-lg-5 text-lg-start text-center">
                   <div className="position-relative mb-lg-0 mb-5">
                     <img
-                      src="assets/imgs/home-page-2/hero-1/people1.png"
+                      src="assets/imgs/home-page-2/hero-1/people copy (2).png"
                       alt="zelio"
                     />
                     <div className="position-absolute end-0 top-100 translate-middle-y icon-decorate">
